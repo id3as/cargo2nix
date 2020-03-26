@@ -31,4 +31,4 @@ let
       ];
   };
 in
-  rustPkgs.workspace.project-with-resources {}
+  rustPkgs.workspace.crate-with-resources {}

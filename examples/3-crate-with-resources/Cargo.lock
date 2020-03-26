@@ -34,6 +34,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b486ce3ccf7ffd79fdeb678eac06a9e6c09fc88d33836340becb8fffe87c5e33"
 
 [[package]]
+name = "crate-with-resources"
+version = "0.1.0"
+dependencies = [
+ "ructe",
+]
+
+[[package]]
 name = "either"
 version = "1.5.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -89,13 +96,6 @@ dependencies = [
  "lexical-core",
  "memchr",
  "version_check",
-]
-
-[[package]]
-name = "project-with-resources"
-version = "0.1.0"
-dependencies = [
- "ructe",
 ]
 
 [[package]]
